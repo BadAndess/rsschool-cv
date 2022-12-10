@@ -1,1 +1,1 @@
-# rsschool-cv
+BadAndess.github.io/rsschool-cv/cv

@@ -19,9 +19,13 @@ The goal is to go through to the end and find a job in the IT field.
 
 ## Code Example
 
+```
+
 function multiply(a, b){
   return a * b 
 }
+
+```
 
 ## Education
 

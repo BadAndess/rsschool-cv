@@ -44,27 +44,27 @@ a:hover {
     transition: 0.3s;
 }
 
- [class*='button_'] {
+[class*='button_'] {
     cursor: pointer;
-    transition: 0.2s ease;
-} 
+    transition: 0.3s ease;
+}
 
 [class*='button_']:hover {
     transform: scale(103%);
-} 
+}
 
 .menu_link,
 .header_logo_text {
     font-family: "Inka";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 1.6rem;
+    padding: 4.2rem 0 4.2rem;
     color: #010201;
 }
 
 .wrapper {
-    max-width: 1440px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@ li {
 .menu_list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -102,7 +103,7 @@ li {
 .welcome_container {
     display: flex;
     justify-content: space-between;
-    padding: 62px 109px;
+    padding: 62px;
     height: 532px;
     background: #EDF2EC;
 }
@@ -165,6 +166,8 @@ li {
 .service_container {
     height: 1300px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     background: #EDF2EC;
 }

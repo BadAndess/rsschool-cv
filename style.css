@@ -25,3 +25,30 @@ h1 {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
+/* -------header---------------- */
+
+.header {
+	background: linear-gradient(to right, #3d7eaa, #ffe47a)
+}
+
+.nav-list {
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 20px;
+	color: black;
+}
+
+.nav-link:hover {
+    color: white;
+	transition: .4s;
+}

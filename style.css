@@ -69,3 +69,49 @@ h1 {
 	padding: 20px;
 	border-bottom: 2px dashed grey;
 }
+
+/* --------profile----------- */
+
+.section-profile {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 40px 10px 35px;
+}
+
+.section-profile-photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 15px solid rgb(237, 240, 227);
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 400;
+	color: #116E40;
+	text-decoration: underline;
+}
+
+.main-title {
+	font-size: 40px;
+}
+
+.subtitle {
+	font-size: 25px;
+	font-weight: 300;
+	color: rgb(177, 83, 20);
+	border-bottom:4px solid #116E40;
+}
+
+.section-profile-title {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-contacts {
+	font-style: italic;
+}

@@ -52,3 +52,20 @@ h1 {
     color: white;
 	transition: .4s;
 }
+
+/* ------- main--------------- */
+.main {
+	background-color: blanchedalmond;
+}
+
+.main-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+}
+
+.section {
+	width: 50%;
+	padding: 20px;
+	border-bottom: 2px dashed grey;
+}

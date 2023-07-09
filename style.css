@@ -116,4 +116,30 @@ h1 {
 	font-style: italic;
 }
 
+/* -------Code------- */
 
+.code-example {
+	margin: 10px;
+}
+
+code {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: large;
+}
+
+.code-border {
+	width: 475px;
+	height: 70%;
+	padding: 10px ;
+	color: rgb(213, 216, 219);
+	background: #131414;
+	border: 1px solid gray;
+
+}
+
+@media (max-width: 768px) {
+	.section {
+		width: 100%;
+	}
+}

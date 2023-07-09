@@ -1,20 +1,23 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
-html,body{
-	height: 100%;
+body {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: 'Caprasimo', sans-serif;
 	line-height: 2;
 	font-size: 20px;
 	color: rgb(107, 91, 91);
-}
-
-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
 
 h1 {
@@ -73,17 +76,34 @@ h1 {
 /* --------profile----------- */
 
 .section-profile {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	width: 100%;
 	padding: 40px 10px 35px;
 }
 
 .section-profile-photo {
 	width: 250px;
 	height: 250px;
-	border-radius: 50%;
-	border: 15px solid rgb(237, 240, 227);
+	border: 5px solid #394d05;
+    box-shadow: 2px 5px 10px grey;
+
+	animation: photo-animate 8s infinite alternate;
+}
+
+@keyframes photo-animate {
+	0% {
+		border-radius: 48% 52% 49% 51% / 51% 51% 49% 49% ;
+	}
+	40% {
+		border-radius: 36% 64% 26% 74% / 60% 38% 62% 40%  ;
+	}
+	60% {
+		border-radius: 60% 40% 64% 36% / 60% 38% 62% 40%  ;
+	}
+	100% {
+		border-radius: 40% 60% 44% 56% / 43% 45% 55% 57%  ;
+	}
 }
 
 .section-title {
@@ -118,7 +138,7 @@ h1 {
 
 /* -------Code------- */
 
-.code-example {
+code-example {
 	margin: 10px;
 }
 
@@ -129,7 +149,7 @@ code {
 }
 
 .code-border {
-	width: 475px;
+	width: 100%;
 	height: 70%;
 	padding: 10px ;
 	color: rgb(213, 216, 219);

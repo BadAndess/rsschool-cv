@@ -11,18 +11,14 @@ html {
 
 body {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: 'Caprasimo', sans-serif;
 	line-height: 2;
 	font-size: 20px;
 	color: rgb(107, 91, 91);
 }
-
-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
 
 h1 {
 	font-size: 50px;
@@ -92,7 +88,7 @@ h1 {
 	border: 5px solid #394d05;
     box-shadow: 2px 5px 10px grey;
 
-	animation: photo-animate 3s infinite alternate;
+	animation: photo-animate 8s infinite alternate;
 }
 
 @keyframes photo-animate {
@@ -142,7 +138,7 @@ h1 {
 
 /* -------Code------- */
 
-.code-example {
+code-example {
 	margin: 10px;
 }
 
@@ -153,7 +149,7 @@ code {
 }
 
 .code-border {
-	width: 475px;
+	width: 100%;
 	height: 70%;
 	padding: 10px ;
 	color: rgb(213, 216, 219);

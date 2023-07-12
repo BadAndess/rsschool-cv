@@ -20,6 +20,11 @@ body {
 	color: rgb(107, 91, 91);
 }
 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
 h1 {
 	font-size: 50px;
 }

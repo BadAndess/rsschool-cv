@@ -35,6 +35,11 @@ h1 {
 	margin: 0 auto;
 }
 
+a {
+	text-decoration: none;
+}
+
+
 /* -------header---------------- */
 
 .header {
@@ -139,6 +144,17 @@ h1 {
 
 .section-contacts {
 	font-style: italic;
+}
+
+/* -------Projects---- */
+
+.cv {
+	padding-left: 30px;
+	font-style: italic;
+	font-size: 90px;
+	border-left: 5px solid rgb(19, 87, 13);
+	border-radius: 50%;
+	color: rgb(209, 183, 36);
 }
 
 /* -------Code------- */

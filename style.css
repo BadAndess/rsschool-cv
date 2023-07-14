@@ -72,14 +72,14 @@ a {
 }
 
 .main-container {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .section {
 	width: 50%;
-	padding: 20px;
+	padding: 30px;
 	border-bottom: 2px dashed grey;
 }
 
@@ -183,6 +183,13 @@ code-border {
 	.section {
 		width: 100%;
 	}
+}
+
+/* ----Language---------- */
+
+.flags-section{
+	display: grid;
+	padding-top: 70px;;
 }
 
 /* ------footer----------- */

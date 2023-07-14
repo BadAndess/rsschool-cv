@@ -187,9 +187,9 @@ code-border {
 
 /* ----Language---------- */
 
-.flags-section{
+.flags-container {
 	display: grid;
-	padding-top: 70px;;
+	padding-top: 70px;
 }
 
 /* ------footer----------- */

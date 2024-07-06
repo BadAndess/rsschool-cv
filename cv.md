@@ -38,6 +38,6 @@ function evenOrOdd(number) {
 
 ## Language
 
-Russian - native speaker
-Belarussian - native speaker
-English - A2
+* Russian - native speaker
+* Belarussian - native speaker
+* English - A2

@@ -7,7 +7,7 @@
 
 ## About Me
 
- At the moment, I am re-passing the 0th stage of the Rolling Stones course.
+ At the moment, I am re-passing the  stage 1 of the Rolling Stones course.
  The goal is to go through to the end and find a job in the field of information technology.
 
 ## Skills

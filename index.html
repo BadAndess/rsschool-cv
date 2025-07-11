@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="icon" href="assets/favicon32.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img src="assets/img/MyPhoto.jpg" alt="My photo" class="section-profile-photo">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Andrew Gromov</h1>
+            <h3 class="section-subtitle subtitle">Just a good man</h3>
+          </div>
+        </section>
+
+        <section class="section section-contacts" id="contacts">
+          <h2 class="section-title">Contact information:</h2>
+          <ul class="section-list">
+            <li class="section-item">Mogilev, Belarus</li>
+            <li class="section-item">
+              e-mail: <a href="mailto:andess@tut.by" title="e-mail">Andess@tut.by</a></li>
+            <li class="section-item">
+              Github: <a href="https://github.com/BadAndess" title="github">BadAndess</a></li>
+            <li class="section-item">
+              VK: <a href="https://vk.com/id99842454" title="vk">vk.com/id99842454</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="about">
+          <h2 class="section-title"> About me</h2>
+          <p class="paragr">At the moment, I am re-passing the 0th stage of the Rolling Scopes course.
+            The goal is to go through to the end and find a job in the field of information technology.
+          </p>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">JAVA(beginner)</li>
+            <li class="section-item">PYTHON(beginner)</li>
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">GIT</li>
+          </ul>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <div class="conainer projects-container"></div>
+          <a href="https://BadAndess.github.io/rsschool-cv/cv">
+            <div class="cv">CV</div>
+          </a>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title code-example"> Code Example</h2>
+          <div class="code-border">
+            <pre><code>function evenOrOdd(number) {
+    return (number % 2 === 0) ? 'Even':'Odd';
+    }</code></pre>
+          </div>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Belarusian-Russian University, Faculty of Automated Electric Drives
+            </li>
+            <li class="section-item">Java Online Project -
+              "Start Java"</li>
+            
+          </ul>
+        </section>
+
+        <section class="section language-section" id="language">
+          <h2 class="section-title">language</h2>
+          <ul class="section-list">
+            <li class="section-item"> Russian - native speaker</li>
+            <li class="section-item"> Belarusian - native speaker</li>
+            <li class="section-item"> English - A2</li>
+          </ul>
+        </section>
+        <div class="flags-container">
+          <img src="assets/png/ruflag.png" alt="flag-ru">
+          <img src="assets/png/byflag.png" alt="flag-by">
+          <img src="assets/png/grbrflag.png" alt="flag-gb">
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="rs-footer"><img src="assets/svg/rs.svg" class="rs-icon" alt="RSS">.</a>
+        <p class="nick-footer">@2025 Andrew Gromov</p>
+        <a href="https://github.com/BadAndess" class="github-footer"><img src="assets/svg/github.svg" alt="GitHub"
+            class="github-icon">.</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
